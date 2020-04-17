@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lora:400|Open+Sans:400,700");
-:root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #ffffff; --gray: #6c757d; --gray-dark: #343a40; --primary: #465bb6; --secondary: #414156; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+:root { --blue: #224469; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #ffffff; --gray: #6c757d; --gray-dark: #343a40; --primary: #465bb6; --secondary: #414156; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
 *, *::before, *::after { box-sizing: border-box; }
 
@@ -2439,17 +2439,17 @@ ul.social li a span { font-size: 24px; }
 .content h3 { color: #465bb6; line-height: 1.4; font-weight: 200; letter-spacing: 1px; }
 @media (min-width: 768px) { .content h3 { line-height: 1.4; letter-spacing: 1.8px; font-weight: 200; } }
 
-.intro { display: flex; justify-content: flex-center; align-items: center; height: 50vh; }
-.intro h1 { color: #465bb6; font-size: 2.2rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
-.intro p { width: 80%; font-size: 1.0rem; font-weight: lighter; line-height: 1.4; color: #414156; }
+.intro { display: flex; justify-content: flex-center; align-items: center; height: 60vh; }
+.intro h1 { color: #465bb6; font-size: 2.2rem; line-height: 1.75; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+.intro p { width: 80%; font-size: 1.0rem; font-weight: lighter; line-height: 1.75; color: #414156; }
 @media (min-width: 576px) { .intro p { width: 70%; } }
 @media (min-width: 768px) { .intro p { width: 60%; } }
 @media (min-width: 992px) { .intro p { width: 40%; } }
 
 .intro-small { padding-top: 100px; padding-bottom: 30px; }
 
-.intro-grey { display: flex; justify-content: flex-center; align-items: center; height: 50vh; background-color: grey; text-align: right; color: white; }
-.intro-grey h1 { font-size: 2.2rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+.intro-grey { display: flex; justify-content: flex-center; align-items: center; height: 60vh; text-align: right; }
+.intro-grey h1 { color: #465bb6; font-size: 2.2rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
 .intro-grey p { font-size: 1.0rem; font-weight: lighter; line-height: 1.4; }
 
 .strip { margin-top: 200px; background: white; }
@@ -2462,9 +2462,9 @@ ul.social li a span { font-size: 24px; }
 .whitebox { border: 1px solid #dcdcdc; border-radius: 3px; box-shadow: 0 1px 18px rgba(0, 0, 0, 0.2); background: #fff; padding: 10px; }
 
 .feature { height: 100%; border: 2px solid #eaeaea; padding: 20px; background-color: #ffffff; display: flex; align-items: center; flex-direction: column; text-align: center; }
-.feature .feature-image { flex: 0 0 auto; width: 80px; height: 80px; display: flex; margin-bottom: 20px; text-align: center; }
+.feature .feature-image { flex: 0 0 auto; display: flex; margin-bottom: 20px; text-align: center; }
 .feature img { width: 100%; height: auto; }
-.feature .feature-title { font-size: 1.5rem; font-weight: 300; line-height: 1.2; }
+.feature .feature-title { color: #465bb6; font-size: 1.5rem; font-weight: 300; line-height: 1.2; }
 .feature .feature-content { margin-bottom: 0; margin-top: auto; }
 .feature .feature-content p { margin: 0; }
 .feature .feature-content p strong { color: #414156; text-transform: uppercase; font-size: 0.8rem; font-weight: 700; }
@@ -2473,16 +2473,31 @@ ul.social li a span { font-size: 24px; }
 .subpage-title { display: flex; justify-content: flex-center; align-items: center; height: 30vh; background-image: url("../images/beach_with_building.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center; }
 .subpage-title h1 { padding: 1.7rem; color: white; font-size: 2.5rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
 
+.about-title { display: flex; justify-content: flex-center; align-items: center; height: 50vh; background-image: url("../images/undraw_drone_surveillance_kjjg.svg"); background-repeat: no-repeat; background-size: 35%; background-position: 50vw; }
+.about-title h1 { padding: 1.7rem; color: #465bb6; font-size: 2.5rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+
+.service-title { display: flex; justify-content: flex-center; align-items: center; height: 50vh; background-image: url("../images/undraw_nakamoto_2iv6.svg"); background-repeat: no-repeat; background-size: 30%; background-position: 60vw; }
+.service-title h1 { padding: 1.7rem; color: #465bb6; font-size: 2.5rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+
+.charities-title { display: flex; justify-content: flex-center; align-items: center; height: 50vh; background-image: url("../images/undraw_selecting_1lx3.svg"); background-repeat: no-repeat; background-size: 25%; background-position: 60vw; }
+.charities-title h1 { padding: 1.7rem; color: #465bb6; font-size: 2.5rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+
+.team-title { display: flex; justify-content: flex-center; align-items: center; height: 50vh; background-image: url("../images/undraw_conference_call_b0w6.svg"); background-repeat: no-repeat; background-size: 35%; background-position: 60vw; }
+.team-title h1 { padding: 1.7rem; color: #465bb6; font-size: 2.5rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+
+.join-us-title { display: flex; justify-content: flex-center; align-items: center; height: 50vh; background-image: url("../images/undraw_personal_info_0okl.svg"); background-repeat: no-repeat; background-size: 45%; background-position: 50vw; }
+.join-us-title h1 { padding: 1.7rem; color: #465bb6; font-size: 2.5rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+
+.contact-title { display: flex; justify-content: flex-center; align-items: center; height: 50vh; background-image: url("../images/undraw_at_the_park_2e47.svg"); background-repeat: no-repeat; background-size: 30%; background-position: 60vw; }
+.contact-title h1 { padding: 1.7rem; color: #465bb6; font-size: 2.5rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+
 .subpage-body { padding-top: 5vh; padding-bottom: 10vh; text-align: center; }
 .subpage-body p { font-size: 1.2rem; }
 
-.page-home #join-us { background-image: url("../images/white_construction.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center -40px; }
-@media (min-width: 576px) { .page-home #join-us { background-size: cover; background-position: center -40px; } }
-@media (min-width: 768px) { .page-home #join-us { background-size: cover; background-position: center -50px; } }
-@media (min-width: 992px) { .page-home #join-us { background-size: cover; background-position: center -70px; } }
-.page-home #product { background-image: url("../images/laptop_corner.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center; }
-.page-home #team { background-image: url("../images/messy_desktop.jpg"); background-repeat: no-repeat; background-size: auto 50vh; background-position: 10vw; }
-.page-home #charities { background-image: url("../images/block_chain_thursday.jpg"); background-repeat: no-repeat; background-size: 30%; background-position: 60vw; }
+.page-home #join-us { background-image: url("../images/undraw_to_the_moon_v1mv.svg"); background-repeat: no-repeat; background-size: 70%; background-position: center center; }
+.page-home #product { background-image: url("../images/undraw_two_factor_authentication_namy.svg"); background-repeat: no-repeat; background-size: auto 50vh; background-position: 50vw; }
+.page-home #team { background-image: url("../images/undraw_shared_workspace_hwky.svg"); background-repeat: no-repeat; background-size: auto 45vh; background-position: 10vw; }
+.page-home #charities { background-image: url("../images/undraw_quiz_nlyh.svg"); background-repeat: no-repeat; background-size: auto 110vh; background-position: 50vw; }
 .page-home .call { position: relative; overflow: hidden; background-color: #ffffff; border-radius: 4px; box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07); width: 100%; color: #414156; display: flex; align-items: flex-start; flex-direction: column; }
 @media (min-width: 576px) { .page-home .call { align-items: center; flex-direction: row; width: 90%; } }
 @media (min-width: 768px) { .page-home .call { width: 70%; } }
