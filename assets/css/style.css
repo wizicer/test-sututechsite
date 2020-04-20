@@ -2440,7 +2440,7 @@ ul.social li a span { font-size: 24px; }
 @media (min-width: 768px) { .content h3 { line-height: 1.4; letter-spacing: 1.8px; font-weight: 200; } }
 
 .intro { display: flex; justify-content: flex-center; align-items: center; height: 60vh; }
-.intro h1 { color: #465bb6; font-size: 2.2rem; line-height: 1.75; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+.intro h1 { color: #537ec5; font-size: 2.2rem; line-height: 1.75; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
 .intro p { width: 80%; font-size: 1.0rem; font-weight: lighter; line-height: 1.75; color: #414156; }
 @media (min-width: 576px) { .intro p { width: 70%; } }
 @media (min-width: 768px) { .intro p { width: 60%; } }
@@ -2448,9 +2448,9 @@ ul.social li a span { font-size: 24px; }
 
 .intro-small { padding-top: 100px; padding-bottom: 30px; }
 
-.intro-grey { display: flex; justify-content: flex-center; align-items: center; height: 60vh; text-align: right; }
-.intro-grey h1 { color: #465bb6; font-size: 2.2rem; line-height: 1.2; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
-.intro-grey p { font-size: 1.0rem; font-weight: lighter; line-height: 1.4; }
+.intro-grey { display: flex; justify-content: flex-center; align-items: center; height: 60vh; }
+.intro-grey h1 { color: #537ec5; font-size: 2.2rem; line-height: 1.75; font-family: "Lora", "Helvetica Neue", Arial, sans-serif, -apple-system; }
+.intro-grey p { font-size: 1.0rem; font-weight: lighter; line-height: 1.75; }
 
 .strip { margin-top: 200px; background: white; }
 
@@ -2497,7 +2497,7 @@ ul.social li a span { font-size: 24px; }
 
 .page-home #join-us { background-image: url("../images/undraw_to_the_moon_v1mv.svg"); background-repeat: no-repeat; background-size: 70%; background-position: center center; }
 .page-home #product { background-image: url("../images/undraw_two_factor_authentication_namy.svg"); background-repeat: no-repeat; background-size: auto 50vh; background-position: 50vw; }
-.page-home #team { background-image: url("../images/undraw_shared_workspace_hwky.svg"); background-repeat: no-repeat; background-size: auto 45vh; background-position: 10vw; }
+.page-home #team { background-image: url("../images/undraw_shared_workspace_hwky.svg"); background-repeat: no-repeat; background-size: auto 40vh; background-position: 10vw; }
 .page-home #charities { background-image: url("../images/undraw_quiz_nlyh.svg"); background-repeat: no-repeat; background-size: auto 110vh; background-position: 50vw; }
 .page-home .call { position: relative; overflow: hidden; background-color: #ffffff; border-radius: 4px; box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07); width: 100%; color: #414156; display: flex; align-items: flex-start; flex-direction: column; }
 @media (min-width: 576px) { .page-home .call { align-items: center; flex-direction: row; width: 90%; } }
