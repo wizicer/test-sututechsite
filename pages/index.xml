@@ -6,10 +6,19 @@
     <description>Recent content in Pages on 素图科技</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 06 Dec 2018 09:29:16 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>产品服务</title>
+      <link>/services/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/services/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>History</title>
@@ -18,15 +27,6 @@
       
       <guid>/history/</guid>
       <description>About Heading </description>
-    </item>
-    
-    <item>
-      <title>产品服务</title>
-      <link>/services/</link>
-      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
-      
-      <guid>/services/</guid>
-      <description></description>
     </item>
     
   </channel>
