@@ -29,5 +29,14 @@
       <description>About Heading </description>
     </item>
     
+    <item>
+      <title>Member</title>
+      <link>/member/</link>
+      <pubDate>Thu, 06 Dec 2018 09:29:16 +1000</pubDate>
+      
+      <guid>/member/</guid>
+      <description>About Heading </description>
+    </item>
+    
   </channel>
 </rss>
