@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>不加班文化</title>
-      <link>/about/company/zero%2dovertime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/company/zero%2dovertime/</guid>
-      <description>&lt;p&gt;素图科技提倡“不加班文化”。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>公司简介</title>
       <link>/about/company/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -67,6 +58,15 @@
       <guid>/news/20191127/</guid>
       <description>2019年11月26日下午，素图科技首席架构师梁爽（兼任上海杨浦区社创科普产业研究院公益科普讲解员），在上海市第七届科普讲解大赛杨浦区初赛里进入前十，并荣获“杨浦区优秀科普大使”称号。
 本次比赛，梁爽为大家带来的演讲主题是“区块链的秘密”，主要讲解了区块链的一个核心技术要点——哈希的特性，从而揭示了区块链为何“不可伪造、不可篡改”的秘密。</description>
+    </item>
+    
+    <item>
+      <title>不加班文化</title>
+      <link>/about/company/zero%2dovertime/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/company/zero%2dovertime/</guid>
+      <description>&lt;p&gt;素图科技提倡“不加班文化”。&lt;/p&gt;</description>
     </item>
     
     <item>

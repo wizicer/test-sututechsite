@@ -8,10 +8,6 @@
   </url>
   
   <url>
-    <loc>/about/company/zero%2dovertime/</loc>
-  </url>
-  
-  <url>
     <loc>/about/company/</loc>
   </url>
   
@@ -27,6 +23,10 @@
   <url>
     <loc>/news/20191127/</loc>
     <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/company/zero%2dovertime/</loc>
   </url>
   
   <url>
