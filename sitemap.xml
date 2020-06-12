@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/news/20200602/</loc>
-    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/about/company/</loc>
   </url>
   
@@ -28,6 +23,11 @@
   
   <url>
     <loc>/about/team/</loc>
+  </url>
+  
+  <url>
+    <loc>/news/20200602/</loc>
+    <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
