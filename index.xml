@@ -65,6 +65,15 @@
     </item>
     
     <item>
+      <title>团队成员</title>
+      <link>/about/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/team/</guid>
+      <description>&lt;p&gt;与志同道合的伙伴们一起创造未来&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>素图科技荣获“2019XdHacks SH创客马拉松大赛”亚军</title>
       <link>/news/20191201/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
@@ -74,12 +83,12 @@
     </item>
     
     <item>
-      <title>团队成员</title>
-      <link>/about/team/</link>
+      <title>不加班文化</title>
+      <link>/about/zero-overtime/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/team/</guid>
-      <description>&lt;p&gt;与志同道合的伙伴们一起创造未来&lt;/p&gt;</description>
+      <guid>/about/zero-overtime/</guid>
+      <description>&lt;p&gt;素图科技提倡“不加班文化”。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -90,15 +99,6 @@
       <guid>/news/20200617/</guid>
       <description>6月15日14：00，在同济科技园设计中心开展了由上海杨浦同济科技园有限公司和上海素图科技有限公司共同主办的“区块链专题培训”活动，为同济大学老师讲解区块链相关知识，活动主讲人是上海素图科技有限公司技术总监梁爽。
 在经过了梁总对区块链基础知识的详细讲解和参会成员的提问互动后，大家对区块链有了一定程度的了解，并表现出对新技术的兴趣，希望可以通过反复学习来提高对区块链的认识。</description>
-    </item>
-    
-    <item>
-      <title>不加班文化</title>
-      <link>/about/zero-overtime/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/zero-overtime/</guid>
-      <description>&lt;p&gt;素图科技提倡“不加班文化”。&lt;/p&gt;</description>
     </item>
     
     <item>
