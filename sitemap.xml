@@ -8,16 +8,6 @@
   </url>
   
   <url>
-    <loc>/news/20200810/</loc>
-    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/news/20200622/</loc>
-    <lastmod>2020-06-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/news/2020061201/</loc>
     <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
@@ -32,12 +22,12 @@
   </url>
   
   <url>
-    <loc>/news/2020061202/</loc>
-    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
+    <loc>/about/team/</loc>
   </url>
   
   <url>
-    <loc>/about/team/</loc>
+    <loc>/news/20200622/</loc>
+    <lastmod>2020-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -50,8 +40,18 @@
   </url>
   
   <url>
+    <loc>/news/20200810/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/news/20200617/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/2020061202/</loc>
+    <lastmod>2020-06-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
