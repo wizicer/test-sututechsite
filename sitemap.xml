@@ -21,6 +21,10 @@
   </url>
   
   <url>
+    <loc>/about/software/</loc>
+  </url>
+  
+  <url>
     <loc>/news/20200622/</loc>
     <lastmod>2020-06-22T00:00:00+00:00</lastmod>
   </url>
@@ -87,6 +91,11 @@
   <url>
     <loc>/contact/</loc>
     <lastmod>2020-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/certificate/</loc>
+    <lastmod>2018-12-06T09:29:16+10:00</lastmod>
   </url>
   
   <url>
