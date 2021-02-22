@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>/news/20210128/</loc>
-    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/about/company/</loc>
   </url>
   
@@ -36,6 +31,11 @@
   
   <url>
     <loc>/about/zero-overtime/</loc>
+  </url>
+  
+  <url>
+    <loc>/news/20210128/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
