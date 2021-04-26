@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>“区块链专题培训”圆满完成 - 素图科技</title>
+  <title>年假计算器 - 素图科技</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="/favicon.png">
@@ -18,7 +18,7 @@
 
 </head>
 
-<body class='page '>
+<body class='page page-services-single'>
   <div id="main-menu-mobile" class="main-menu-mobile">
   <ul>
     
@@ -105,11 +105,11 @@
   </div>
 </div>
     
-<div id="hero" class="hero-image hero-image-setheight" style="background-image: url('/images/bg-4.jpg')">
+<div id="hero" class="hero-image hero-image-setheight" style="background-image: url('/services/service2.jpg')">
   <div class="container ">
     <div class="hero-text">
-      <span class="hero-section">新闻中心</span>
-      <h1>“区块链专题培训”圆满完成</h1>
+      <span class="hero-section">公司概况</span>
+      <h1>年假计算器</h1>
       <p></p>
     </div>
   </div>
@@ -118,16 +118,75 @@
 <div class="container pt-4 pt-md-10 pb-4 pb-md-10">
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
-      <div class="work work-single">
-        <div class="content"><p><img src="/.attachments/1-0809ac26-b42d-4066-94f5-75b30c6bdbc9.jpg" alt="1.jpg"></p>
-<p>6月15日下午，由同济科技园和素图科技共同主办的“区块链专题培训”活动，在同济科技园设计中心会议室举行。我公司首席技术官梁爽作为主讲嘉宾，为园区领导和老师们讲解区块链相关知识和应用前景。</p>
-<p><img src="/.attachments/2-6b46314a-d2c6-48c1-bc80-4d971c56b83d.jpg" alt="2.jpg"></p>
-<p>在经过了梁总对区块链基础知识的详细讲解和参会成员的提问互动后，大家对区块链有了一定程度的了解，并表现出对新技术的兴趣，希望可以通过反复学习来提高对区块链的认识。</p>
-<p><img src="/.attachments/4-8e96f2bc-ad8c-424f-a7f2-232d49065ad9.jpg" alt="4.jpg"></p>
+      <div class="service service-single">
+        <div class="content"><p>仅供素图科技内部员工使用。</p>
+<div class="container">
+    <div class="input_row">
+        <label for="service_years">入职时间累计: </label>
+        <select id="service_years">
+            <option value="below1">新入职不满一年</option>
+            <option value="1to10" selected>已满1年不满10年</option>
+            <option value="10to20">已满10年不满20年</option>
+            <option value="over20">已满20年及以上</option>
+        </select>
+    </div>
+    <div class="input_row">
+        <label for="start_date">开始日期: </label>
+        <input type="date" id="start_date" />
+    </div>
+    <div class="input_row">
+        <label for="end_date">截至日期: </label>
+        <input type="date" id="end_date" />
+    </div>
+    <div class="input_row" style="padding-left: 100px;">
+        <button id="calculate">计算结果</button>
+    </div>
+    <div class="input_row">
+        <div id="annual_leave_output"></div>
+    </div>
 </div>
+
+<style>
+    .input_row {
+        padding: 0.5em;
+    }
+    .input_row label {
+        padding-right: 2em;
+        width: 150px;
+        text-align: right; 
+        font-weight: bold; 
+    }
+</style>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    const annual_leave = new Object({
+        "below1": 0, 
+        "1to10": 5, 
+        "10to20": 10, 
+        "over20": 15,
+    });  
+
+
+    const date = new Date();
+    const default_start = date.getFullYear() + "-01-01";
+    const default_end = date.getFullYear() + "-" + (date.getMonth() < 9 ? '0' : '') + (date.getMonth() + 1) + "-" + (date.getDate() < 10 ? '0' : '') + date.getDate();
+    const last_day = date.getFullYear() + "-12-31";
+
+    $("#start_date").val(default_start).attr("min", default_start).attr("max", last_day);
+    $("#end_date").val(default_end).attr("min", default_start).attr("max", last_day);
+
+    $("#calculate").click(function () {
+        var num_annual_leave = annual_leave[$("#service_years").val()];
+        var start_date = new Date($("#start_date").val());
+        var end_date = new Date($("#end_date").val());
+        var difference = (end_date.getTime() - start_date.getTime()) / (1000 * 3600 * 24) + 1;
+        var output = Math.floor(difference / (365 / num_annual_leave) * 2) / 2;
+        $("#annual_leave_output").text("你有"+output+"天年假。");
+    }); 
+</script></div>
       </div>
     </div>
-    
   </div>
 </div>
 
