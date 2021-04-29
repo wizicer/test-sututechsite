@@ -161,25 +161,17 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     const annual_leave = new Object({
-        "below1": 5, 
+        "below1": 0, 
         "1to10": 5, 
         "10to20": 10, 
         "over20": 15,
     });  
 
+
     const date = new Date();
     const default_start = date.getFullYear() + "-01-01";
     const default_end = date.getFullYear() + "-" + (date.getMonth() < 9 ? '0' : '') + (date.getMonth() + 1) + "-" + (date.getDate() < 10 ? '0' : '') + date.getDate();
     const last_day = date.getFullYear() + "-12-31";
-
-
-    $('#service_years').change(function (){
-        if($(this).val()==='below1'){
-            $('.input_row label:eq(1)').html('入职日期:');
-        }else{
-            $('.input_row label:eq(1)').html('开始日期:');
-        }
-    });
 
     $("#start_date").val(default_start).attr("min", default_start).attr("max", last_day);
     $("#end_date").val(default_end).attr("min", default_start).attr("max", last_day);
@@ -189,14 +181,8 @@
         var start_date = new Date($("#start_date").val());
         var end_date = new Date($("#end_date").val());
         var difference = (end_date.getTime() - start_date.getTime()) / (1000 * 3600 * 24) + 1;
-        if(difference<0)
-        {
-            $("#annual_leave_output").text("输入有误");
-        }
-        else{
-        var output =  Math.floor(difference / (365 / num_annual_leave) * 2) / 2;
+        var output = Math.floor(difference / (365 / num_annual_leave) * 2) / 2;
         $("#annual_leave_output").text("你有"+output+"天年假。");
-    }
     }); 
 </script></div>
       </div>
