@@ -132,15 +132,13 @@
     </div>
     <div class="input_row">
         <label for="start_date">开始日期: </label>
-        <input type="date" id="start_date" />
+        <input disabled type="date" id="start_date" />
     </div>
     <div class="input_row">
         <label for="end_date">截至日期: </label>
         <input type="date" id="end_date" />
     </div>
-    <div class="input_row" style="padding-left: 100px;">
-        <button id="calculate">计算结果</button>
-    </div>
+
     <div class="input_row">
         <div id="annual_leave_output"></div>
     </div>
@@ -150,23 +148,23 @@
     .input_row {
         padding: 0.5em;
     }
+
     .input_row label {
         padding-right: 2em;
         width: 150px;
-        text-align: right; 
-        font-weight: bold; 
+        text-align: right;
+        font-weight: bold;
     }
 </style>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     const annual_leave = new Object({
-        "below1": 0, 
-        "1to10": 5, 
-        "10to20": 10, 
+        "below1": 5,
+        "1to10": 5,
+        "10to20": 10,
         "over20": 15,
-    });  
-
+    });
 
     const date = new Date();
     const default_start = date.getFullYear() + "-01-01";
@@ -176,14 +174,46 @@
     $("#start_date").val(default_start).attr("min", default_start).attr("max", last_day);
     $("#end_date").val(default_end).attr("min", default_start).attr("max", last_day);
 
-    $("#calculate").click(function () {
-        var num_annual_leave = annual_leave[$("#service_years").val()];
-        var start_date = new Date($("#start_date").val());
-        var end_date = new Date($("#end_date").val());
+    var num_annual_leave = annual_leave[$("#service_years").val()];
+    var start_date = new Date($("#start_date").val());
+    var end_date = new Date($("#end_date").val());
+
+    $('#service_years').change(function () {
+        if ($(this).val() === 'below1') {
+            $('.input_row label:eq(1)').html('入职日期:');
+            $('.input_row input:eq(0)').attr("disabled", false);
+        } else {
+            $('.input_row label:eq(1)').html('开始日期:');
+            $("#start_date").val(default_start);
+            $('.input_row input:eq(0)').attr("disabled", true);
+        }
+        num_annual_leave = annual_leave[$("#service_years").val()];
+        start_date = new Date($("#start_date").val());
+        cal();
+    });
+
+    $('#start_date').change(() => {
+        start_date = new Date($("#start_date").val());
+        cal();
+    })
+
+    $('#end_date').change(() => {
+        end_date = new Date($("#end_date").val());
+        cal();
+    })
+
+    var cal = function () {
         var difference = (end_date.getTime() - start_date.getTime()) / (1000 * 3600 * 24) + 1;
-        var output = Math.floor(difference / (365 / num_annual_leave) * 2) / 2;
-        $("#annual_leave_output").text("你有"+output+"天年假。");
-    }); 
+        if (difference < 0) {
+            $("#annual_leave_output").text('截至日期应大于入职日期，请调整日期设置');
+        }
+        else {
+            var output = Math.floor(difference / (365 / num_annual_leave) * 2) / 2;
+            $("#annual_leave_output").text("你有" + output + "天年假。");
+        }
+    };
+    cal();
+
 </script></div>
       </div>
     </div>
