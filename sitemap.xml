@@ -8,17 +8,12 @@
   </url>
   
   <url>
-    <loc>/news/20210430/</loc>
-    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/about/company/</loc>
   </url>
   
   <url>
-    <loc>/news/20210330/</loc>
-    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
+    <loc>/news/20210430/</loc>
+    <lastmod>2021-04-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -30,12 +25,17 @@
   </url>
   
   <url>
-    <loc>/news/20210312/</loc>
-    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+    <loc>/news/20210330/</loc>
+    <lastmod>2021-03-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/about/zero-overtime/</loc>
+  </url>
+  
+  <url>
+    <loc>/news/20210312/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
